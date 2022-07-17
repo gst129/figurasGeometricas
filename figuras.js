@@ -1,4 +1,8 @@
-console.log("Hola mundo");
-document.write("Hello, world");
-let a = 5
-alert(a);
+const PI = Math.PI;
+
+areaCirculo = (radio) => 
+    (radio * radio) * PI;
+
+
+
+console.log(areaCirculo(5));
