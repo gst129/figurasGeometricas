@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figuras geometricas</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
  
@@ -24,10 +25,12 @@
 
 <main>
 
-    <div>
-        <p>Cuadrado</p>
+    <div class="form1">
+        
             <form action="" class="calcBox">
-                <label for="ladoCuadrado">Cuanto mide el lado del Cuadro ?</label>
+                <p id="titleForm">Calculadora de figuras geometricas</p id="titleForm">
+                <p>Cuadrado</p>
+                <label for="ladoCuadrado" id="label">Cuanto mide el lado del Cuadro ?</label>
                 <input type="number" id="ladoCuadrado" placeholder="Numero">
                 <button type="button" class="boton" onclick="perimetroCuadrado()">
                  Perimetro
@@ -35,8 +38,10 @@
                 <button type="button" class="boton" onclick="areaCuadrado()">
                     Area
                 </button>
+
                 <br>
-                <label for="radio">Cuanto mide el radio del Circulo  ?</label>
+                 <p>Circulo</p>
+                <label for="radio" id="label">Cuanto mide el radio del Circulo  ?</label>
                 <input type="number" id="radio" placeholder="Numero">
                 <button type="button" class="boton" onclick="diametroCirculo()">
                  Diametro
@@ -48,7 +53,74 @@
             </form>
 
     </div>
- 
+
+    <div class="form1">
+        
+        <form action="" class="calcBox">
+            <p id="titleForm">Calculadora de figuras geometricas</p id="titleForm">
+            <p>Cuadrado</p>
+            <label for="ladoCuadrado" id="label">Cuanto mide el lado del Cuadro ?</label>
+            <input type="number" id="ladoCuadrado" placeholder="Numero">
+            <button type="button" class="boton" onclick="perimetroCuadrado()">
+             Perimetro
+            </button>
+            <button type="button" class="boton" onclick="areaCuadrado()">
+                Area
+            </button>
+
+            <br>
+             <p>Circulo</p>
+            <label for="radio" id="label">Cuanto mide el radio del Circulo  ?</label>
+            <input type="number" id="radio" placeholder="Numero">
+            <button type="button" class="boton" onclick="diametroCirculo()">
+             Diametro
+            </button>
+            <button type="button" class="boton" onclick="areaCirculo()">
+                Area
+            </button>
+    
+        </form>
+
+</div>
+
+<div class="form1">
+        
+    <form action="" class="calcBox">
+        <p id="titleForm">Calculadora de figuras geometricas</p id="titleForm">
+        <p>Cuadrado</p>
+        <label for="ladoCuadrado" id="label">Cuanto mide el lado del Cuadro ?</label>
+        <input type="number" id="ladoCuadrado" placeholder="Numero">
+        <button type="button" class="boton" onclick="perimetroCuadrado()">
+         Perimetro
+        </button>
+        <button type="button" class="boton" onclick="areaCuadrado()">
+            Area
+        </button>
+
+        <br>
+         <p>Circulo</p>
+        <label for="radio" id="label">Cuanto mide el radio del Circulo  ?</label>
+        <input type="number" id="radio" placeholder="Numero">
+        <button type="button" class="boton" onclick="diametroCirculo()">
+         Diametro
+        </button>
+        <button type="button" class="boton" onclick="areaCirculo()">
+            Area
+        </button>
+
+    </form>
+
+</div>
+    
+
+        <!-- <input list="Cursos" placeholder="Seleccion tu lenguaje favorito: ">
+        <datalist id="Cursos">
+            <option value="JAVA"></option>
+            <option value="C++"></option>
+            <option value="PYTHON"></option>
+            <option value="PHP"></option>
+        </datalist>
+  -->
 
 
 </main>
@@ -59,6 +131,13 @@
 </footer>
     
     <script src="./figuras.js"></script>
+
+
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
     
 </body>
 </html>

@@ -1,14 +1,54 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
+}  
+
+.form1{
+    border-radius: 15px;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px;
 }
 
 .calcBox{
-    width: 400px;
+    width: 350px;
     padding: 30px;
-    background: #999;
+    background: #dda15e;
     margin: auto;
     margin-top: 100px;
     font-family: 'Times New Roman';
 }
+
+p {
+    text-align: center;
+    font-size: 15px;
+    color:#000;
+    height: 40px;
+
+}
+
+#label{
+    font-size: 15px;
+}
+
+#titleForm{
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Helvetica;
+    color: #495057 ;
+  
+}
+
+.boton{
+    text-decoration: none;
+    padding: 2px;
+    font-weight: 300;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #000;
+    border-radius: 4px;
+    border: 2px solid #9d0208;
+}
+
