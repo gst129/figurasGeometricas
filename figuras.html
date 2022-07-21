@@ -11,94 +11,42 @@
  
     <header>
     <nav>
-        <h1>Calculo Perimetro y area de figuras geometricas</h1>
 
-        <ul>
-            <li><a href="">Iinicio</a></li>
-            <li><a href="">Calculo Figuras</a></li>
-            <li><a href="">Historia geometria</a></li>
-            <li><a href="">Quienes somos</a></li>
-            <li><a href="">Contacto</a></li>
+        <ul class="mainNav">
+            <li class="listNav"><a href=""> Inicio</a></li>
+            <li class="listNav"><a href="">Calculo Figuras</a></li>
+            <li class="listNav"><a href="">Historia geometria</a></li>
+            <li class="listNav"><a href="">Quienes somos</a></li>
+            <li class="listNav"><a href="">Contacto</a></li>
         </ul>
     </nav>
  </header>
 
-<main>
+<main>   
+
+    <h1>Calculo Perimetro y area de figuras geometricas</h1>
 
     <div class="form1">
         
-            <form action="" class="calcBox">
-                <p id="titleForm">Calculadora de figuras geometricas</p id="titleForm">
-                <p>Cuadrado</p>
+            <form action="">
+                <p class="titulo">Cuadrado</p>
                 <label for="ladoCuadrado" id="label">Cuanto mide el lado del Cuadro ?</label>
                 <input type="number" id="ladoCuadrado" placeholder="Numero">
                 <button type="button" class="boton" onclick="perimetroCuadrado()">
                  Perimetro
                 </button>
                 <button type="button" class="boton" onclick="areaCuadrado()">
-                    Area
+                    Area   
                 </button>
-
-                <br>
-                 <p>Circulo</p>
-                <label for="radio" id="label">Cuanto mide el radio del Circulo  ?</label>
-                <input type="number" id="radio" placeholder="Numero">
-                <button type="button" class="boton" onclick="diametroCirculo()">
-                 Diametro
-                </button>
-                <button type="button" class="boton" onclick="areaCirculo()">
-                    Area
-                </button>
-        
+                   
             </form>
 
     </div>
 
     <div class="form1">
-        
-        <form action="" class="calcBox">
-            <p id="titleForm">Calculadora de figuras geometricas</p id="titleForm">
-            <p>Cuadrado</p>
-            <label for="ladoCuadrado" id="label">Cuanto mide el lado del Cuadro ?</label>
-            <input type="number" id="ladoCuadrado" placeholder="Numero">
-            <button type="button" class="boton" onclick="perimetroCuadrado()">
-             Perimetro
-            </button>
-            <button type="button" class="boton" onclick="areaCuadrado()">
-                Area
-            </button>
 
-            <br>
-             <p>Circulo</p>
-            <label for="radio" id="label">Cuanto mide el radio del Circulo  ?</label>
-            <input type="number" id="radio" placeholder="Numero">
-            <button type="button" class="boton" onclick="diametroCirculo()">
-             Diametro
-            </button>
-            <button type="button" class="boton" onclick="areaCirculo()">
-                Area
-            </button>
-    
-        </form>
-
-</div>
-
-<div class="form1">
-        
-    <form action="" class="calcBox">
-        <p id="titleForm">Calculadora de figuras geometricas</p id="titleForm">
-        <p>Cuadrado</p>
-        <label for="ladoCuadrado" id="label">Cuanto mide el lado del Cuadro ?</label>
-        <input type="number" id="ladoCuadrado" placeholder="Numero">
-        <button type="button" class="boton" onclick="perimetroCuadrado()">
-         Perimetro
-        </button>
-        <button type="button" class="boton" onclick="areaCuadrado()">
-            Area
-        </button>
-
-        <br>
-         <p>Circulo</p>
+        <form action="">
+            <p class="titulo">Circulo</p>
         <label for="radio" id="label">Cuanto mide el radio del Circulo  ?</label>
         <input type="number" id="radio" placeholder="Numero">
         <button type="button" class="boton" onclick="diametroCirculo()">
@@ -107,11 +55,31 @@
         <button type="button" class="boton" onclick="areaCirculo()">
             Area
         </button>
+        </form>
 
-    </form>
+    </div>
 
-</div>
-    
+    <div class="form1">
+
+        <form action="">
+            <p class="titulo">Triangulo</p>
+        <label for="radio" id="label">Cuanto mide el lado A del triangulo ?</label>
+        <input type="number" id="ladoA" placeholder="Numero">
+        <label for="radio" id="label">Cuanto mide el lado B del triangulo ?</label>
+        <input type="number" id="ladoB" placeholder="Numero">
+        <label for="radio" id="label">Cuanto mide la base del triangulo ?</label>
+        <input type="number" id="base" placeholder="Numero">
+        <label for="radio" id="label">Cuanto mide la altura triangulo ?</label>
+        <input type="number" id="altura" placeholder="Numero">
+        <button type="button" class="boton" onclick="perimetroTriangulo()">
+         Diametro
+        </button>
+        <button type="button" class="boton" onclick="areaTriangulo()">
+            Area
+        </button>
+        </form>
+
+    </div>
 
         <!-- <input list="Cursos" placeholder="Seleccion tu lenguaje favorito: ">
         <datalist id="Cursos">
@@ -131,13 +99,6 @@
 </footer>
     
     <script src="./figuras.js"></script>
-
-
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
     
 </body>
 </html>
